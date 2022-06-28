@@ -7,7 +7,7 @@ def botStart():
     print("Bot Start")
 
     textoPix = "Gostando do programa? Faca um pix pra nossa querida Narosa <3 contatochadebuceta@gmail.com"
-    tempoPix = 15
+    tempoPix = 10
 
     textoAssedio = "a gente quer as mana livre e a vontade por aqui então se qualquer uma sentir um descoonforto, liga nois que as cafunela tá on <3 passou dos limite, manda la https://bit.ly/passoudoslimites"
     tempoAssedio = 20
@@ -18,15 +18,16 @@ def botStart():
     for i in range(0,9999999999999,+1): 
 
         if i == tempoPix:
-            tempoPix =+ tempoPix
+            tempoPix = tempoPix + tempoPix
+            
             TextoPix(textoPix)
 
         if i == tempoAssedio:
-            tempoAssedio =+ tempoAssedio
+            tempoAssedio = tempoAssedio + tempoAssedio
             TextoAssedio(textoAssedio)
 
         if i == tempooBoraFumarUmCafun:
-            tempooBoraFumarUmCafun =+ tempooBoraFumarUmCafun
+            tempooBoraFumarUmCafun = tempooBoraFumarUmCafun + tempooBoraFumarUmCafun
             TextoFumar(textoBoraFumarUmCafune)
 
         time.sleep(1)
