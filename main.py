@@ -22,7 +22,7 @@ def botStart():
         23h00 - Patrick
         23h30 - Cran'''
     #TEMPO EM SEGUNDOS, 60*5 = 5 MINUTOS
-    tempo1 = 70
+    tempo1 = 60*5
     contador1 = tempoDeAviso
 
     texto2 = "A gente quer as mana livre e a vontade por aqui então se qualquer uma sentir um descoonforto, liga nois que as cafunela tá on <3 passou dos limite, manda la https://bit.ly/passoudoslimites"
@@ -30,7 +30,7 @@ def botStart():
     contador2 = tempoDeAviso
 
     textoBoraFumarUmCafune ="Bora Fumar 1 cafune?"
-    tempoFumar = 420
+    tempoFumar = 60*20
     contadorFumar = tempoDeAviso
 
     print("CafuBot Iniciado com sucesso")
@@ -74,11 +74,11 @@ def botStart():
         def escrever(texto):
         
             print(texto)
-            # magic.hotkey('alt', 'h')
-            # magic.write("CafuBot - " + texto)
-            # magic.press('enter')
-            # magic.hotkey('alt', 'h')
-            # magic.click()
+            magic.hotkey('alt', 'h')
+            magic.write("CafuBot - " + texto)
+            magic.press('enter')
+            magic.hotkey('alt', 'h')
+            magic.click()
 
         def contador(segundos, texto):
             print("Proxima msg em " + str(segundos) + " segundos : " + texto)
