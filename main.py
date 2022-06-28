@@ -33,7 +33,7 @@ def botStart():
     tempoFumar = 420
     contadorFumar = tempoDeAviso
 
-    print("Bot Start")
+    print("CafuBot Iniciado com sucesso")
     for i in range(0,9999999999999,+1): 
 
     ##################TEXTO 1 ###################################
